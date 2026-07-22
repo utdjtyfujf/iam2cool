@@ -36,6 +36,21 @@ Icon: file:///Applications/GameGemiOS.app/AppIcon60x60@3x.png
 Name: GameGem
 Sponsor: Aidoo.TK <aidoo.tk@gmail.com, http://www.aidootk.com>
 
+Package: com.coolbooter.coolbooter
+Version: 1.4.1-release
+Architecture: iphoneos-arm
+Maintainer: CoolBooter <coolbooterios@gmail.com>
+Depends: xpwn, zip, unzip, ldid, diskdev-cmds, firmware (>= 7.0)
+Filename: ./debs/com.coolbooter.coolbooter-1.4.1-release.deb
+Size: 20753350
+MD5sum: 4c0fc2637efed8d247996b100e11214a
+SHA1: 45f3e3a12134b9d043c54d4dea2485a67ce8d20c
+SHA256: eb76880df2eeebfffc6d815f8c5699abc05b790e8300f397abd1487460d7b929
+Section: System
+Description: CoolBooter is an all-in-one dual booting utility for jailbroken 32 bit iOS devices.
+Author: CoolBooter <coolbooterios@gmail.com>
+Name: CoolBooter
+
 Package: com.hackyouriphone.localiapstore
 Version: 1.4-4
 Architecture: iphoneos-arm
@@ -53,4 +68,24 @@ Author: anondev <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=localiapstore
 Name: LocalIAPStore
 Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=localiapstore
+
+Package: com.moski.divise
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: Moski <matthewpierson01@gmail.com>
+Installed-Size: 4836
+Pre-Depends: bash
+Depends: firmware (>= 10.3.0), firmware-sbin, rsync, cy+cpu.arm64, img4tool | firmware (<= 12.0.0)
+Filename: ./debs/com.moski.divise_1.2.1_iphoneos-arm.deb
+Size: 2567334
+MD5sum: ab912aafe7f395d8c2aafd2f8e115049
+SHA1: 78159437df86708f9acd4fbc8384c1f00f93ff42
+SHA256: f97228878aca41f5154e0f9485d0f62d188a3f75d11badcc44899061a95b1c64
+Section: Utilities
+Description: arm64 Dualboots/Tethered Downgrades on device!
+Tag: compatible_min::ios10.3
+Author: Moski <matthewpierson01@gmail.com>
+Depiction: https://chariz.com/get/divise
+Icon: https://cdn.chariz.cloud/icon/divise/icon@3x.png
+Name: Divisé
 
