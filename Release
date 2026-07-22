@@ -6,3 +6,7 @@ Codename: ios
 Architectures: iphoneos-arm
 Components: main
 Description: Custom Cydia Repository
+MD5Sum:
+ c2b69063169b5a8d6d5708c8447c1a50 3226 Packages
+ bccb2530676118633768ceabbdc8b70a 1632 Packages.bz2
+ 250fb0c97a0cebf88b57802a72e79609 1536 Packages.xz

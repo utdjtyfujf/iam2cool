@@ -1,19 +1,56 @@
+Package: ai.akemi.appsyncunified
+Version: 110.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 700
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.3.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: ./debs/nodelete-ai.akemi.appsyncunified.deb
+Size: 58440
+MD5sum: 26f898f0b80f3bd842527aa9a9859bb1
+SHA1: f0392e1c1992789ac92c17dc7db3718fca6df899
+SHA256: fa97d20ecaab914c7d07fc17ff2f31c15d34b33a5eebc158cb2c83e8a7ec2abc
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+
+Package: com.aidoo.MemSearch
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: Aidoo.TK <http://www.GameGem.org, http://www.aidootk.com>
+Depends: firmware (>= 8.0)
+Filename: ./debs/GameGemiOS_v1.5_2018.04.01_0223.deb
+Size: 4009418
+MD5sum: f7c6f267b4f18828a61752deba9cd79a
+SHA1: 55c54edfc8b69241b70e06db2abef51eedd1a2c7
+SHA256: 80c0aac1aef60461d036ed5268ccfdfe5027b26d363cf525e297f2c39c7eac24
+Section: Utilities
+Description: Memory debug tool for iOS. Support iPhone and iPad above iOS 8.x (include 8.x) . Support mode: accurate . Support data type: Word, DWord, Float. Support data locking and batch modify. Tutorials: http://GameGem.org/, AD include .
+Author: Aidoo.TK <aidoo.tk@gmail.com, http://www.aidootk.com>
+Icon: file:///Applications/GameGemiOS.app/AppIcon60x60@3x.png
+Name: GameGem
+Sponsor: Aidoo.TK <aidoo.tk@gmail.com, http://www.aidootk.com>
+
 Package: com.hackyouriphone.localiapstore
-Name: LocalIAPStore
 Version: 1.4-4
 Architecture: iphoneos-arm
-Description: An in-app purchase store emulator.
-Maintainer: Your Name <email@example.com>
-Author: Your Name
-Section: Tweaks
-Filename: debs/com.hackyouriphone.localiapstore_1.4-4_iphoneos-arm.deb
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Depends: firmware (>= 6.0), firmware (<= 12.5.7), mobilesubstrate, preferenceloader
+Filename: ./debs/com.hackyouriphone.localiapstore_1.4-4_iphoneos-arm.deb
+Size: 70872
+MD5sum: 037efc8dae5755b907791008058b1951
+SHA1: f22b3a920064eab740985e910f185821f04bd087
+SHA256: 5e1443f4d1bc94fa2bc7ac6a775d5f2880459d065f9add3ef457571bbcba4e1c
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=localiapstore
+Description: Pwns In-App purchases on iOS 5.1.1 - 7.1.X. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
+Author: anondev <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=localiapstore
+Name: LocalIAPStore
+Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=localiapstore
 
-Package: ai.akemi.appsyncunified
-Name: AppSync Unified
-Version: 112.0
-Architecture: iphoneos-arm
-Description: Enables the installation of unsigned applications.
-Maintainer: Karen Tsai <karen@akemi.ai>
-Author: Karen Tsai
-Section: System
-Filename: debs/nodelete-ai.akemi.appsyncunified.deb
