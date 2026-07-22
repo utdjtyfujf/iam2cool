@@ -89,6 +89,43 @@ Depiction: https://chariz.com/get/divise
 Icon: https://cdn.chariz.cloud/icon/divise/icon@3x.png
 Name: Divisé
 
+Package: com.r333d.cylinder
+Version: 1.0.4-5
+Architecture: iphoneos-arm
+Maintainer: Reed Weichler <rweichler+cydia@gmail.com>
+Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+Filename: ./debs/CYLINDER.deb
+Size: 330868
+MD5sum: 36ccf9eccde83b1a1dea0fba55299c68
+SHA1: 23669b6f3788e766a0ae4317891b36cf77df9131
+SHA256: f1495d6a1de9a7947548452fc90b0ce7923a7710ad3c0c8d2f591b697c78f2b5
+Section: Tweaks
+Homepage: http://github.com/rweichler/cylinder
+Description: Make your icons dance
+Author: Reed Weichler (rweichler) <rweichler+cydia@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cylinderDp
+Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@2x.png
+Name: Cylinder
+
+Package: com.ryannair05.cylinder
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
+Installed-Size: 1305
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+Filename: ./debs/com.ryannair05.cylinder_1.1.2_iphoneos-arm.deb
+Size: 228784
+MD5sum: 5304fd25dae83b51729ca139b77c6162
+SHA1: 1184122b8454949b88956b833855e46018456612
+SHA256: 1935669eb241fb8ce5cbade090a08b312752801d4048e2f91488f551d7fd2f25
+Section: Tweaks
+Description: Make your icons dance
+Tag: compatible_min::ios11.0
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Depiction: https://chariz.com/get/cylinder-reborn
+Icon: https://img.chariz.cloud/icon/cylinder-reborn/icon@3x.png
+Name: Cylinder Reborn
+
 Package: me.tomt000.stageduo
 Version: 1.2
 Architecture: iphoneos-arm
@@ -104,6 +141,57 @@ Section: Tweaks
 Description: Stage Manager Reimagined for iPhone
 Author: tomt000
 Name: Dynamic Stage
+
+Package: uk.invoxiplaygames.checkmatestore
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 164
+Depends: mobilesubstrate, firmware (>= 2.0)
+Filename: ./debs/checkmatestore-1.2.deb
+Size: 5200
+MD5sum: 5245fc6431aadd77110a226b8f0d9ee8
+SHA1: 1330e7a5c051c6dfbff558184de78accecb19032
+SHA256: 0863fee434c9a1aed89696655b4075aa3edde2b2ad3ee2a0e99a99428c17ffe3
+Section: Tweaks
+Description: Disable capability limits in the App Store.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
+Name: Checkmate, Store!
+
+Package: uk.invoxiplaygames.googlesigninfix
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames
+Installed-Size: 52
+Depends: mobilesubstrate, firmware (>= 6.0)
+Filename: ./debs/googlesigninfix-1.0.1.deb
+Size: 3432
+MD5sum: 9112f892fbaaa0b307151cfd1bad5276
+SHA1: d6e5506ea296892e80923293098dd792bc58834c
+SHA256: cb174fc33fbf70d07a99eba5338dd75114ef1118b5fb2f8c015093784bb7edfd
+Section: Tweaks
+Description: Fixes Google-owned app login on iOS 6.
+Author: InvoxiPlayGames
+Depiction: http://cydia.invoxiplaygames.uk/dp/gsigninfix.php
+Name: GSignInFix
+
+Package: uk.invoxiplaygames.imessagercepatch
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 116
+Depends: mobilesubstrate, firmware (<< 12.4.1)
+Filename: ./debs/imessagercepatch-1.1.deb
+Size: 4166
+MD5sum: 76dbdcd9f4c87b09ab409c14c0bb608c
+SHA1: a83bfb4ca3ac47bf4b3f512dfa0ad3d64a7dc024
+SHA256: 0a11230370ef6ae21409377418e9759a7d987411000065b3c88556fc13347507
+Section: Tweaks
+Description: Mitigates the iMessage RCE vulnerability in iOS 12.4 and below.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: https://cydia.invoxiplaygames.uk/dp/imessagercepatch.php
+Name: iMessage RCE Patch
 
 Package: weeb.lillie.youtubedislikesreturn
 Version: 1.14.2
