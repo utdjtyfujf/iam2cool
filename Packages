@@ -1,3 +1,27 @@
+Package: ai.akemi.appinst
+Version: 2.1
+Architecture: iphoneos-arm64
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 364
+Pre-Depends: firmware (>= 5.0)
+Depends: ai.akemi.appsyncunified (>= 5.1)
+Conflicts: com.sull.appinstaller
+Replaces: com.linusyang.appinst
+Provides: com.linusyang.appinst
+Filename: ./debs/ai.akemi.appinst_v2.1_iphoneos-arm64.deb
+Size: 59962
+MD5sum: cc389056b950a6d9a108a44e78b3e073
+SHA1: 8792547c3bd60eb46709d2ecb4d1efb9b7fcb215
+SHA256: 13fc3990506825e6d83d1db66aad81a0c0ebb346eeec1fed9a2c0b0802535491
+Section: Utilities
+Priority: standard
+Homepage: https://github.com/akemin-dayo/AppSync
+Description: A command-line IPA app installer.
+Tag: role::enduser, purpose::console
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appinst
+Name: appinst (App Installer)
+
 Package: ai.akemi.appsyncunified
 Version: 116.0
 Architecture: iphoneos-arm64
@@ -39,6 +63,22 @@ Description: Enables the ability to install unsigned/fakesigned iOS applications
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
+
+Package: alias20.fakesignalbar
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: alias20
+Installed-Size: 364
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/alias20.fakesignalbar_v0.1_iphoneos-arm64.deb
+Size: 15224
+MD5sum: a3f8409856b7a6dedbff92895c3716ca
+SHA1: a5e2d3da686375cdbb60baeab970c3b98e024c72
+SHA256: 636b0015ea6c64897af1c011aaf72fba7526ba02d4275d77a26c422876c9e49b
+Section: Tweaks
+Description: Fake carrier name, signal strength, cellular connections, and more! Motivated by SniperGER's Signal tweak.
+Author: alias20
+Name: FakeSignalBar
 
 Package: ca.adrien.appdrop
 Version: 3.2.1
