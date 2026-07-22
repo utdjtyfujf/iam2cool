@@ -19,6 +19,26 @@ Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
 
+Package: ca.adrien.appdrop
+Version: 3.2.1
+Architecture: iphoneos-arm
+Maintainer: Adrien Ruest-Lorquet
+Installed-Size: 89
+Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
+Filename: ./debs/ca.adrien.appdrop_3.2.1_iphoneos-arm.deb
+Size: 735540
+MD5sum: 65688157bcf12461d451e65c59e88c27
+SHA1: 9dfb30345d4436502135edf73fac7714e3797918
+SHA256: 0edd55ca8d72fff2617fda9e31a66479b0aaab2d88f280b4058b6576c2aa26ef
+Section: Utilities
+Homepage: https://github.com/AdrienRL1/AppDrop
+Description: Browse 43,000+ iOS apps by category and install them on iOS 5-10. Fully iPad-optimized. v3.2: new "Most Downloaded" home shortcut + per-app download counts + sort by downloads, live active-users count, and you can now contribute IPAs yourself at https://upload.appdrop.ca. Also fixes version/compatibility selection (always the newest installable, non-encrypted build) and a category-loading glitch. v3.2.0.1: "Uncategorized" category now lists apps that have no category, download counts & Most Downloaded refresh continuously, and the iOS 5.x launch crash is fixed. v3.2.0.3: community "compatibility builds" (an app re-targeted to a lower iOS) merge cleanly and are fully reversible. v3.2.1: freezing is a lot better now, especially on older devices; the catalogue is tidier, with apps that don't belong no longer recommended; the Search, Install and Settings icons at the bottom look a lot sharper; and on a colour or dark theme the selected tab follows your theme instead of always being blue. (17 themes + dark mode, Favorites & folders, 9 languages.)
+Tag: compatible_min::ios5.0
+Author: Adrien Ruest-Lorquet
+Depiction: https://adrienrl1.github.io/cydia/depiction.html
+Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
+Name: AppDrop
+
 Package: com.aidoo.MemSearch
 Version: 1.4
 Architecture: iphoneos-arm
@@ -108,6 +128,22 @@ Author: NoisyFlake <support@noisyflake.com>
 Depiction: https://chariz.com/get/velvet-2
 Icon: https://img.chariz.cloud/icon/velvet-2/icon@3x.png
 Name: Velvet 2
+
+Package: com.opa334.trollstorelite
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 592
+Depends: ldid
+Filename: ./debs/com.opa334.trollstorelite_2.1.1_iphoneos-arm64.deb
+Size: 212938
+MD5sum: cb9eef492a726584e54f0c85418d2b96
+SHA1: d8b2cbe68363fc24c38363822eb189c67b2cff84
+SHA256: 61ffce0715de3043abaf995c303a5975ecae87a406eff9219b15d7d0bba17b33
+Section: Applications
+Description: TrollStore for jailbroken iOS
+Author: opa334
+Name: TrollStore Lite
 
 Package: com.r333d.cylinder
 Version: 1.0.4-5
