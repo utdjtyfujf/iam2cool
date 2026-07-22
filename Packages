@@ -1,4 +1,4 @@
-Package: com.yourname.localiapstore
+Package: com.hackyouriphone.localiapstore
 Name: LocalIAPStore
 Version: 1.4-4
 Architecture: iphoneos-arm
@@ -6,4 +6,14 @@ Description: An in-app purchase store emulator.
 Maintainer: Your Name <email@example.com>
 Author: Your Name
 Section: Tweaks
-Filename: debs/your-file-name.deb
+Filename: debs/com.hackyouriphone.localiapstore_1.4-4_iphoneos-arm.deb
+
+Package: ai.akemi.appsyncunified
+Name: AppSync Unified
+Version: 112.0
+Architecture: iphoneos-arm
+Description: Enables the installation of unsigned applications.
+Maintainer: Karen Tsai <karen@akemi.ai>
+Author: Karen Tsai
+Section: System
+Filename: debs/nodelete-ai.akemi.appsyncunified.deb
