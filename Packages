@@ -89,6 +89,26 @@ Depiction: https://chariz.com/get/divise
 Icon: https://cdn.chariz.cloud/icon/divise/icon@3x.png
 Name: Divisé
 
+Package: com.noisyflake.velvet2
+Version: 2.1.2-3
+Architecture: iphoneos-arm
+Maintainer: NoisyFlake <support@noisyflake.com>
+Installed-Size: 621
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.initwithframe.velvet
+Filename: ./debs/com.noisyflake.velvet2_2.1.2-3_iphoneos-arm.deb
+Size: 95948
+MD5sum: 8871a00c7a5fecb40eb48f1d676fd03e
+SHA1: 847ec262dfeccd0aee03ce1e26daaeea5b3ab5cf
+SHA256: 29f01608590d11fdca98794164e97e5f672ea2b2cd87a2c43763fdeff8757417
+Section: Tweaks
+Description: A fully customizable notification experience
+Tag: compatible_min::ios15.0
+Author: NoisyFlake <support@noisyflake.com>
+Depiction: https://chariz.com/get/velvet-2
+Icon: https://img.chariz.cloud/icon/velvet-2/icon@3x.png
+Name: Velvet 2
+
 Package: com.r333d.cylinder
 Version: 1.0.4-5
 Architecture: iphoneos-arm
@@ -125,6 +145,68 @@ Author: Ryan Nair <ryannairtweaks@gmail.com>
 Depiction: https://chariz.com/get/cylinder-reborn
 Icon: https://img.chariz.cloud/icon/cylinder-reborn/icon@3x.png
 Name: Cylinder Reborn
+
+Package: com.spark.snowboard
+Version: 1.4.20~Beta4
+Architecture: iphoneos-arm
+Maintainer: Spark & Dennis D. Bednarz <info@sparkdev.me>
+Installed-Size: 5076
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/com.spark.snowboard_1.4.20~Beta4_iphoneos-arm.deb
+Size: 1591776
+MD5sum: b75be9c7bf4881610cdfef45b3ad3d4e
+SHA1: c73ea8b19411e0d635e9c892e259bba55b253325
+SHA256: 2cd493870317c776adc5f0ca5ccbaeb3bb7058ae4ec2096e6c2ad97b228badee
+Section: Tweaks
+Description: Snowboard theming engine
+Tag: compatible_min::ios7.0
+Author: Spark & Dennis D. Bednarz <info@sparkdev.me>
+Depiction: https://chariz.com/get/snowboard
+Icon: https://cdn.chariz.cloud/icon/snowboard/icon@3x.png
+Name: SnowBoard
+
+Package: com.thomz.rounddockremastered
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Thomz <thom.laffay@gmail.com>
+Installed-Size: 402
+Depends: ws.hbang.common (>= 1.17), preferenceloader (>= 2.2.4), ws.hbang.alderis (>= 1.2), firmware (>= 14.0)
+Conflicts: com.thomz.cenamopro
+Filename: ./debs/com.thomz.rounddockremastered_1.0_iphoneos-arm.deb
+Size: 39008
+MD5sum: f2ad99ab29ca191c52dc0b8d0f3dff75
+SHA1: c01fdd1da7fd87a4275ad9c7af0a5fb1fd380cf7
+SHA256: 10d6b143a7a10ed9a70a6337f8a4f5e66ca3f4d01ffb373dde31d4d413e2d8bc
+Section: Tweaks
+Description: Round the corners of your dock
+Tag: compatible_min::ios14.0
+Author: Thomz <thom.laffay@gmail.com>
+Depiction: https://chariz.com/get/rounddockremastered
+Icon: https://img.chariz.cloud/icon/rounddockremastered/icon@3x.png
+Name: RoundDock Remastered
+
+Package: me.lau.atria
+Version: 1.4.1
+Architecture: iphoneos-arm
+Maintainer: ren7995 <lau7995ren@gmail.com>
+Installed-Size: 877
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
+Filename: ./debs/me.lau.atria_1.4.1_iphoneos-arm.deb
+Size: 241122
+MD5sum: 2ea1294cba60bdf6e97ffa3dd7e73a33
+SHA1: 7455549d3cb75f50d524c433ff2a3f6c3743799d
+SHA256: 1f0a58d60dc19c2e7d7d4a731a1943504d206699bce173cb9d27dc2fd8d575a6
+Section: Tweaks
+Description: A proper homescreen layout editor for iOS 13-16
+Tag: compatible_min::ios13.0
+Author: ren7995 <lau7995ren@gmail.com>
+Depiction: https://chariz.com/get/atria
+Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
+Name: Atria
 
 Package: me.tomt000.stageduo
 Version: 1.2
