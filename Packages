@@ -263,15 +263,15 @@ Name: iCleaner Pro
 
 Package: com.fouadraheb.appdata
 Version: 1.4.0
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: Fouad Raheb <support@fouadraheb.com>
-Installed-Size: 776
+Installed-Size: 792
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.fouadraheb.appdata_1.4.0_iphoneos-arm.deb
-Size: 126546
-MD5sum: 59d4768b73f2f6cbffdc8ed501de2e5d
-SHA1: 9e36fc13dda92c5046ee35c684e9cb05069460a4
-SHA256: 7ebc82339c33b990fd213484ef489321dbd75e91bd7aa9f0e87a97d7b4b852c2
+Filename: ./debs/com.fouadraheb.appdata_1.4.0_iphoneos-arm64.deb
+Size: 113436
+MD5sum: 81e70e7262e5cdc3347cb5997c3f3d5b
+SHA1: 25735371c67cafb135e363cffef9ffa4aa4c8230
+SHA256: 1a1d348ad7eb11c966767a316b7a271715d1b6762d87622b17742694461b13c1
 Section: Tweaks
 Description: View & Manage Applications Data from your Home Screen
 Author: Fouad Raheb <support@fouadraheb.com>
@@ -282,15 +282,15 @@ Sileodepiction: https://apt.fouadraheb.com/package/com.fouadraheb.appdata/sileo
 
 Package: com.fouadraheb.appdata
 Version: 1.4.0
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: Fouad Raheb <support@fouadraheb.com>
-Installed-Size: 792
+Installed-Size: 776
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.fouadraheb.appdata_1.4.0_iphoneos-arm64.deb
-Size: 113436
-MD5sum: 81e70e7262e5cdc3347cb5997c3f3d5b
-SHA1: 25735371c67cafb135e363cffef9ffa4aa4c8230
-SHA256: 1a1d348ad7eb11c966767a316b7a271715d1b6762d87622b17742694461b13c1
+Filename: ./debs/com.fouadraheb.appdata_1.4.0_iphoneos-arm.deb
+Size: 126546
+MD5sum: 59d4768b73f2f6cbffdc8ed501de2e5d
+SHA1: 9e36fc13dda92c5046ee35c684e9cb05069460a4
+SHA256: 7ebc82339c33b990fd213484ef489321dbd75e91bd7aa9f0e87a97d7b4b852c2
 Section: Tweaks
 Description: View & Manage Applications Data from your Home Screen
 Author: Fouad Raheb <support@fouadraheb.com>
@@ -372,21 +372,6 @@ Name: Divisé
 
 Package: com.nahtedetihw.closeall
 Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Ethan Whited
-Installed-Size: 208
-Filename: ./debs/com.nahtedetihw.closeall_1.0_iphoneos-arm64.deb
-Size: 21664
-MD5sum: 179dba4685fbf2353152f224b2d1c1e2
-SHA1: 3f0ceea6f80d5cc1aa963acbbc31bfb84b543396
-SHA256: 34dd91591f9b5d26892a65eb9b592760266a389f9393ded91f85ca981e25d2db
-Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
-Author: Ethan Whited
-Name: CloseAll
-
-Package: com.nahtedetihw.closeall
-Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Ethan Whited
 Installed-Size: 208
@@ -395,6 +380,21 @@ Size: 21670
 MD5sum: 5a7729dd87d638fc3fe03f9ec4376c88
 SHA1: 0116c3e672a852b98aa8131c553b61af1232ffe5
 SHA256: ef97d1507493e4d2f453cd4048dd442c6c36c4f9ca29dd029b41a93debb5f69a
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Ethan Whited
+Name: CloseAll
+
+Package: com.nahtedetihw.closeall
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Ethan Whited
+Installed-Size: 208
+Filename: ./debs/com.nahtedetihw.closeall_1.0_iphoneos-arm64.deb
+Size: 21664
+MD5sum: 179dba4685fbf2353152f224b2d1c1e2
+SHA1: 3f0ceea6f80d5cc1aa963acbbc31bfb84b543396
+SHA256: 34dd91591f9b5d26892a65eb9b592760266a389f9393ded91f85ca981e25d2db
 Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: Ethan Whited
@@ -470,21 +470,6 @@ Name: Velvet 2
 
 Package: com.opa334.trollstorehelper
 Version: 2.1
-Architecture: iphoneos-arm64
-Maintainer: opa334
-Installed-Size: 4400
-Filename: ./debs/com.opa334.trollstorehelper_2.1_iphoneos-arm64.deb
-Size: 1920334
-MD5sum: 3b73f08f43d6e3809f21c5f2ab798352
-SHA1: c847686ec46801a42c37039132c6f332b25da952
-SHA256: 41464fca0ad7baa60e14a3b57d6cb41e91b87a13689fdfbbc9bc1185fe6b27de
-Section: Applications
-Description: Helper utility to install and manage TrollStore!
-Author: opa334
-Name: TrollStore Helper
-
-Package: com.opa334.trollstorehelper
-Version: 2.1
 Architecture: iphoneos-arm
 Maintainer: opa334
 Installed-Size: 4400
@@ -493,6 +478,21 @@ Size: 1919648
 MD5sum: ca213f963a5a097da923e339c1bdbdd8
 SHA1: e3ccfe4b9fd82b2e36c8fc60a50e5aebe04f17eb
 SHA256: 446cb7c61b2e46d92cce9c26b2bff509e7d95df200370fa51fd2a6d098602eec
+Section: Applications
+Description: Helper utility to install and manage TrollStore!
+Author: opa334
+Name: TrollStore Helper
+
+Package: com.opa334.trollstorehelper
+Version: 2.1
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 4400
+Filename: ./debs/com.opa334.trollstorehelper_2.1_iphoneos-arm64.deb
+Size: 1920334
+MD5sum: 3b73f08f43d6e3809f21c5f2ab798352
+SHA1: c847686ec46801a42c37039132c6f332b25da952
+SHA256: 41464fca0ad7baa60e14a3b57d6cb41e91b87a13689fdfbbc9bc1185fe6b27de
 Section: Applications
 Description: Helper utility to install and manage TrollStore!
 Author: opa334
