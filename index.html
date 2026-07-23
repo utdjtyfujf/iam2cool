@@ -51,9 +51,6 @@
             text-align: center;
             box-sizing: border-box;
         }
-        .btn:hover {
-            background-color: #005bb5;
-        }
         .btn.zebra {
             background-color: #34c759;
         }
@@ -66,40 +63,30 @@
         .btn.cydia:hover {
             background-color: #d67c00;
         }
-    </style>
-    <script>
-        function openRepo(event, manager) {
-            event.preventDefault();
-            let urls = {};
-            
-            if (manager === 'sileo') {
-                urls.native = "sileo://source/https://iam2c00l.github.io/iam2cool/";
-                urls.fallback = "https://repo.packix.com/api/add/https://iam2c00l.github.io/iam2cool/"; // or guide them to copy
-            } else if (manager === 'zebra') {
-                urls.native = "zbra://sources/add/https://iam2c00l.github.io/iam2cool/";
-            } else if (manager === 'cydia') {
-                urls.native = "cydia://url/https://cydia.saurik.com/api/share#?url=https://iam2c00l.github.io/iam2cool/";
-            }
-
-            // Try to open the native app scheme
-            window.location.href = urls.native;
-
-            // If the app isn't installed, iOS will fail to open the scheme. 
-            // We can catch it or let Safari show its standard notification, 
-            // but preventing a hard crash loop is handled by direct scheme targeting.
+        .note {
+            font-size: 0.85rem;
+            color: #ff453a;
+            margin-top: 1.5rem;
+            line-height: 1.4;
         }
-    </script>
+    </style>
 </head>
 <body>
 
     <div class="container">
         <h1>Add to Package Manager</h1>
-        <p>Tap a button below to add this repository directly to your favorite package manager.</p>
+        <p>Tap a button below to add this repository directly to your package manager.</p>
         
         <div class="button-group">
-            <a href="sileo://source/https://iam2c00l.github.io/iam2cool/" onclick="openRepo(event, 'sileo')" class="btn">Add to Sileo</a>
-            <a href="zbra://sources/add/https://iam2c00l.github.io/iam2cool/" onclick="openRepo(event, 'zebra')" class="btn zebra">Add to Zebra</a>
-            <a href="cydia://url/https://cydia.saurik.com/api/share#?url=https://iam2c00l.github.io/iam2cool/" onclick="openRepo(event, 'cydia')" class="btn cydia">Add to Cydia</a>
+            <!-- Native Zebra Scheme -->
+            <a href="zbra://sources/add/https://iam2c00l.github.io/iam2cool/" class="btn zebra">Add to Zebra</a>
+            
+            <!-- Standard Cydia Share Scheme (Updated arg to prevent offline error) -->
+            <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://iam2c00l.github.io/iam2cool/" class="btn cydia">Add to Cydia</a>
+        </div>
+
+        <div class="note">
+            Sileo was too hard to implement i gave up on it
         </div>
     </div>
 
