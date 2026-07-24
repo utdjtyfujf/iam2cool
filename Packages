@@ -611,6 +611,21 @@ Depiction: https://chariz.com/get/cylinder-reborn
 Icon: https://img.chariz.cloud/icon/cylinder-reborn/icon@3x.png
 Name: Cylinder Reborn
 
+Package: com.scs.wififix
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Resul
+Depends: mobilesubstrate, ldid, firmware (>= 7.0)
+Filename: ./debs/scs-wifi-fix-ios7_1.0.1_iphoneos-arm.deb
+Size: 10232
+MD5sum: bc2880f2a1c2f14d92fc7d4ac283f112
+SHA1: 2d1bef8ac1a43f5e4d64f67ce160d218fa77f637
+SHA256: f0556d6033692174049335af6160eaa9d6a5f8c5b898231d0b9d532fa2f73c67
+Section: Tweaks
+Description: Wi-Fi password/keychain fix for iOS 7 SEPless tethered devices.
+Author: Resul
+Name: SCS WiFi Fix
+
 Package: com.spark.snowboard
 Version: 1.4.20~Beta4
 Architecture: iphoneos-arm
